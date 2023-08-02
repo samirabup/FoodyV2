@@ -1,4 +1,4 @@
-package com.bup.foodyv2
+package com.bup.foodyv2.data.network
 
 import com.bup.foodyv2.models.FoodRecipe
 import retrofit2.Response

@@ -1,4 +1,4 @@
-package com.bup.foodyv2
+package com.bup.foodyv2.util
 
 class Constants {
 

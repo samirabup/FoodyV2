@@ -1,4 +1,4 @@
-package com.bup.foodyv2.ui.fragments.favorites
+package com.bup.foodyv2.ui.fragments.favorite
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

@@ -8,12 +8,12 @@
 
     <fragment
         android:id="@+id/recipesFragment"
-        android:name="com.bup.foodyv2.ui.fragments.recipes.RecipesFragment"
+        android:name="com.bup.foodyv2.ui.fragments.recipe.RecipesFragment"
         android:label="Recipes"
         tools:layout="@layout/fragment_recipes" />
     <fragment
         android:id="@+id/favoriteRecipesFragment"
-        android:name="com.bup.foodyv2.ui.fragments.favorites.FavoriteRecipesFragment"
+        android:name="com.bup.foodyv2.ui.fragments.favorite.FavoriteRecipesFragment"
         android:label="Favorites"
         tools:layout="@layout/fragment_favorite_recipes" />
     <fragment
