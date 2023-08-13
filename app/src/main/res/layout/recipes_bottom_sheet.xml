@@ -208,7 +208,7 @@
                         android:id="@+id/vegetarian_chip"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/vegatarian" />
+                        android:text="@string/vegetarian" />
 
                     <com.google.android.material.chip.Chip
                         style="@style/CustomChipStyle"

@@ -39,7 +39,7 @@ class DetailsActivity : AppCompatActivity() {
         titles.add("Instructions")
 
         val resultBundle = Bundle()
-        resultBundle.putParcelable("resultBundle", args.result)
+        resultBundle.putParcelable("recipeBundle", args.result)
 
         val adapter = PagerAdapter(
             resultBundle,
