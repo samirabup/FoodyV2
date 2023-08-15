@@ -13,6 +13,7 @@ import com.bup.foodyv2.adapters.PagerAdapter
 import com.bup.foodyv2.ui.fragments.ingredients.IngredientsFragment
 import com.bup.foodyv2.ui.fragments.instructions.InstructionsFragment
 import com.bup.foodyv2.ui.fragments.overview.OverviewFragment
+import com.bup.foodyv2.util.Constants.Companion.RECIPE_RESULT_KEY
 import com.google.android.material.tabs.TabLayout
 
 class DetailsActivity : AppCompatActivity() {
@@ -39,7 +40,7 @@ class DetailsActivity : AppCompatActivity() {
         titles.add("Instructions")
 
         val resultBundle = Bundle()
-        resultBundle.putParcelable("recipeBundle", args.result)
+        resultBundle.putParcelable(RECIPE_RESULT_KEY, args.result)
 
         val adapter = PagerAdapter(
             resultBundle,
