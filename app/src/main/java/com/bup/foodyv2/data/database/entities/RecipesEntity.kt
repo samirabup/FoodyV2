@@ -1,4 +1,4 @@
-package com.bup.foodyv2.data.database
+package com.bup.foodyv2.data.database.entities
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
