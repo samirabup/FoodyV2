@@ -86,7 +86,7 @@
         android:text="@string/title"
         android:textSize="22sp"
         android:fontFamily="@font/courgette"
-        android:textColor="@color/darkGray"
+        android:textColor="@color/titleColor"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -99,7 +99,7 @@
         tools:ignore="ContentDescription"
         android:layout_marginTop="12dp"
         android:src="@drawable/ic_check"
-        app:tint="@color/darkGray"
+        app:tint="@color/itemColor"
         app:layout_constraintStart_toStartOf="@+id/title_textView"
         app:layout_constraintTop_toBottomOf="@+id/title_textView" />
 
@@ -109,7 +109,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:text="@string/vegetarian"
-        android:textColor="@color/darkGray"
+        android:textColor="@color/itemColor"
         app:layout_constraintBottom_toBottomOf="@+id/vegetarian_imageView"
         app:layout_constraintStart_toEndOf="@+id/vegetarian_imageView"
         app:layout_constraintTop_toTopOf="@+id/vegetarian_imageView" />
@@ -120,7 +120,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         tools:ignore="ContentDescription"
-        app:tint="@color/darkGray"
+        app:tint="@color/itemColor"
         android:src="@drawable/ic_check"
         app:layout_constraintStart_toStartOf="@+id/vegetarian_imageView"
         app:layout_constraintTop_toBottomOf="@+id/vegetarian_imageView" />
@@ -131,7 +131,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:text="@string/vegan"
-        android:textColor="@color/darkGray"
+        android:textColor="@color/itemColor"
         app:layout_constraintBottom_toBottomOf="@+id/vegan_imageView"
         app:layout_constraintStart_toEndOf="@+id/vegan_imageView"
         app:layout_constraintTop_toTopOf="@+id/vegan_imageView" />
@@ -143,7 +143,7 @@
         tools:ignore="ContentDescription"
         android:layout_marginStart="24dp"
         android:src="@drawable/ic_check"
-        app:tint="@color/darkGray"
+        app:tint="@color/itemColor"
         app:layout_constraintBottom_toBottomOf="@+id/vegetarian_textView"
         app:layout_constraintStart_toEndOf="@+id/vegetarian_textView"
         app:layout_constraintTop_toTopOf="@+id/vegetarian_textView" />
@@ -154,7 +154,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:text="@string/gluten_free"
-        android:textColor="@color/darkGray"
+        android:textColor="@color/itemColor"
         app:layout_constraintBottom_toBottomOf="@+id/gluten_free_imageView"
         app:layout_constraintStart_toEndOf="@+id/gluten_free_imageView"
         app:layout_constraintTop_toTopOf="@+id/gluten_free_imageView" />
@@ -166,7 +166,7 @@
         tools:ignore="ContentDescription"
         android:layout_marginTop="12dp"
         android:src="@drawable/ic_check"
-        app:tint="@color/darkGray"
+        app:tint="@color/itemColor"
         app:layout_constraintStart_toStartOf="@+id/gluten_free_imageView"
         app:layout_constraintTop_toBottomOf="@+id/gluten_free_imageView" />
 
@@ -176,7 +176,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:text="@string/dairy_free"
-        android:textColor="@color/darkGray"
+        android:textColor="@color/itemColor"
         app:layout_constraintBottom_toBottomOf="@+id/dairy_free_imageView"
         app:layout_constraintStart_toEndOf="@+id/dairy_free_imageView"
         app:layout_constraintTop_toTopOf="@+id/dairy_free_imageView" />
@@ -188,7 +188,7 @@
         tools:ignore="ContentDescription"
         android:layout_marginStart="24dp"
         android:src="@drawable/ic_check"
-        app:tint="@color/darkGray"
+        app:tint="@color/itemColor"
         app:layout_constraintBottom_toBottomOf="@+id/gluten_free_textView"
         app:layout_constraintStart_toEndOf="@+id/gluten_free_textView"
         app:layout_constraintTop_toTopOf="@+id/gluten_free_textView" />
@@ -199,7 +199,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:text="@string/healthy"
-        android:textColor="@color/darkGray"
+        android:textColor="@color/itemColor"
         app:layout_constraintBottom_toBottomOf="@+id/healthy_imageView"
         app:layout_constraintStart_toEndOf="@+id/healthy_imageView"
         app:layout_constraintTop_toTopOf="@+id/healthy_imageView" />
@@ -211,7 +211,7 @@
         tools:ignore="ContentDescription"
         android:layout_marginTop="12dp"
         android:src="@drawable/ic_check"
-        app:tint="@color/darkGray"
+        app:tint="@color/itemColor"
         app:layout_constraintStart_toStartOf="@+id/healthy_imageView"
         app:layout_constraintTop_toBottomOf="@+id/healthy_imageView" />
 
@@ -221,7 +221,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:text="@string/cheap"
-        android:textColor="@color/darkGray"
+        android:textColor="@color/itemColor"
         app:layout_constraintBottom_toBottomOf="@+id/cheap_imageView"
         app:layout_constraintStart_toEndOf="@+id/cheap_imageView"
         app:layout_constraintTop_toTopOf="@+id/cheap_imageView" />
